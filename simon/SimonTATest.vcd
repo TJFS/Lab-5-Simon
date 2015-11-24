@@ -1,0 +1,1501 @@
+$date
+	Tue Nov 24 01:52:57 2015
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module ButtonDebouncer $end
+$var wire 1 ! noisy_btn $end
+$var wire 1 " sysclk $end
+$var reg 1 # clean_btn $end
+$var reg 32 $ count [31:0] $end
+$var reg 1 % xnew $end
+$upscope $end
+$scope module SimonTATest $end
+$var wire 3 & mode_leds [2:0] $end
+$var wire 4 ' pattern_leds [3:0] $end
+$var reg 1 ( clk $end
+$var reg 8 ) errors [7:0] $end
+$var integer 32 * idx [31:0] $end
+$var reg 1 + level $end
+$var reg 4 , pattern [3:0] $end
+$var reg 1 - rst $end
+$var reg 1 . sysclk $end
+$scope module simon $end
+$var wire 1 / i_clr $end
+$var wire 1 0 i_inc $end
+$var wire 1 1 last_it $end
+$var wire 1 2 level $end
+$var wire 3 3 mode_leds [2:0] $end
+$var wire 1 4 n_inc $end
+$var wire 1 5 n_tc $end
+$var wire 1 6 of_out $end
+$var wire 1 7 of_set $end
+$var wire 1 8 p_correct $end
+$var wire 1 9 p_reflect $end
+$var wire 1 : p_write $end
+$var wire 4 ; pattern [3:0] $end
+$var wire 4 < pattern_leds [3:0] $end
+$var wire 1 = pclk $end
+$var wire 1 > psi_ld $end
+$var wire 1 ? reset $end
+$var wire 1 @ rst $end
+$var wire 1 A sysclk $end
+$var wire 1 B uclk $end
+$var wire 1 C valid $end
+$scope module dpath $end
+$var wire 1 B clk $end
+$var wire 1 / i_clr $end
+$var wire 1 0 i_inc $end
+$var wire 6 D k [5:0] $end
+$var wire 1 2 level $end
+$var wire 1 4 n_inc $end
+$var wire 1 7 of_set $end
+$var wire 1 9 p_reflect $end
+$var wire 1 : p_write $end
+$var wire 4 E pattern [3:0] $end
+$var wire 1 > psi_ld $end
+$var wire 4 F read_pattern [3:0] $end
+$var wire 1 ? reset $end
+$var reg 6 G i [5:0] $end
+$var reg 1 H last_it $end
+$var reg 1 I lvl $end
+$var reg 6 J n [5:0] $end
+$var reg 1 K n_tc $end
+$var reg 1 L of $end
+$var reg 1 M of_out $end
+$var reg 1 N p_correct $end
+$var reg 4 O pattern_leds [3:0] $end
+$var reg 6 P psi [5:0] $end
+$var reg 1 Q valid $end
+$scope module mem $end
+$var wire 1 B clk $end
+$var wire 6 R r_addr [5:0] $end
+$var wire 4 S r_data [3:0] $end
+$var wire 1 ? rst $end
+$var wire 6 T w_addr [5:0] $end
+$var wire 4 U w_data [3:0] $end
+$var wire 1 : w_en $end
+$scope begin wport[0] $end
+$upscope $end
+$scope begin wport[1] $end
+$upscope $end
+$scope begin wport[2] $end
+$upscope $end
+$scope begin wport[3] $end
+$upscope $end
+$scope begin wport[4] $end
+$upscope $end
+$scope begin wport[5] $end
+$upscope $end
+$scope begin wport[6] $end
+$upscope $end
+$scope begin wport[7] $end
+$upscope $end
+$scope begin wport[8] $end
+$upscope $end
+$scope begin wport[9] $end
+$upscope $end
+$scope begin wport[10] $end
+$upscope $end
+$scope begin wport[11] $end
+$upscope $end
+$scope begin wport[12] $end
+$upscope $end
+$scope begin wport[13] $end
+$upscope $end
+$scope begin wport[14] $end
+$upscope $end
+$scope begin wport[15] $end
+$upscope $end
+$scope begin wport[16] $end
+$upscope $end
+$scope begin wport[17] $end
+$upscope $end
+$scope begin wport[18] $end
+$upscope $end
+$scope begin wport[19] $end
+$upscope $end
+$scope begin wport[20] $end
+$upscope $end
+$scope begin wport[21] $end
+$upscope $end
+$scope begin wport[22] $end
+$upscope $end
+$scope begin wport[23] $end
+$upscope $end
+$scope begin wport[24] $end
+$upscope $end
+$scope begin wport[25] $end
+$upscope $end
+$scope begin wport[26] $end
+$upscope $end
+$scope begin wport[27] $end
+$upscope $end
+$scope begin wport[28] $end
+$upscope $end
+$scope begin wport[29] $end
+$upscope $end
+$scope begin wport[30] $end
+$upscope $end
+$scope begin wport[31] $end
+$upscope $end
+$scope begin wport[32] $end
+$upscope $end
+$scope begin wport[33] $end
+$upscope $end
+$scope begin wport[34] $end
+$upscope $end
+$scope begin wport[35] $end
+$upscope $end
+$scope begin wport[36] $end
+$upscope $end
+$scope begin wport[37] $end
+$upscope $end
+$scope begin wport[38] $end
+$upscope $end
+$scope begin wport[39] $end
+$upscope $end
+$scope begin wport[40] $end
+$upscope $end
+$scope begin wport[41] $end
+$upscope $end
+$scope begin wport[42] $end
+$upscope $end
+$scope begin wport[43] $end
+$upscope $end
+$scope begin wport[44] $end
+$upscope $end
+$scope begin wport[45] $end
+$upscope $end
+$scope begin wport[46] $end
+$upscope $end
+$scope begin wport[47] $end
+$upscope $end
+$scope begin wport[48] $end
+$upscope $end
+$scope begin wport[49] $end
+$upscope $end
+$scope begin wport[50] $end
+$upscope $end
+$scope begin wport[51] $end
+$upscope $end
+$scope begin wport[52] $end
+$upscope $end
+$scope begin wport[53] $end
+$upscope $end
+$scope begin wport[54] $end
+$upscope $end
+$scope begin wport[55] $end
+$upscope $end
+$scope begin wport[56] $end
+$upscope $end
+$scope begin wport[57] $end
+$upscope $end
+$scope begin wport[58] $end
+$upscope $end
+$scope begin wport[59] $end
+$upscope $end
+$scope begin wport[60] $end
+$upscope $end
+$scope begin wport[61] $end
+$upscope $end
+$scope begin wport[62] $end
+$upscope $end
+$scope begin wport[63] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module ctrl $end
+$var wire 1 B clk $end
+$var wire 1 1 last_it $end
+$var wire 1 5 n_tc $end
+$var wire 1 6 of_out $end
+$var wire 1 8 p_correct $end
+$var wire 1 @ rst $end
+$var wire 1 C valid $end
+$var reg 1 V i_clr $end
+$var reg 1 W i_inc $end
+$var reg 3 X mode_leds [2:0] $end
+$var reg 1 Y n_inc $end
+$var reg 2 Z next_state [1:0] $end
+$var reg 1 [ of_set $end
+$var reg 1 \ p_reflect $end
+$var reg 1 ] p_write $end
+$var reg 1 ^ psi_ld $end
+$var reg 1 _ reset $end
+$var reg 2 ` state [1:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 a \mem[0] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 b \mem[1] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 c \mem[2] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 d \mem[3] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 e \mem[4] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 f \mem[5] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 g \mem[6] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 h \mem[7] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 i \mem[8] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 j \mem[9] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 k \mem[10] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 l \mem[11] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 m \mem[12] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 n \mem[13] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 o \mem[14] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 p \mem[15] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 q \mem[16] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 r \mem[17] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 s \mem[18] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 t \mem[19] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 u \mem[20] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 v \mem[21] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 w \mem[22] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 x \mem[23] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 y \mem[24] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 z \mem[25] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 { \mem[26] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 | \mem[27] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 } \mem[28] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 ~ \mem[29] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 !" \mem[30] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 "" \mem[31] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 #" \mem[32] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 $" \mem[33] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 %" \mem[34] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 &" \mem[35] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 '" \mem[36] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 (" \mem[37] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 )" \mem[38] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 *" \mem[39] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 +" \mem[40] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 ," \mem[41] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 -" \mem[42] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 ." \mem[43] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 /" \mem[44] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 0" \mem[45] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 1" \mem[46] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 2" \mem[47] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 3" \mem[48] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 4" \mem[49] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 5" \mem[50] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 6" \mem[51] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 7" \mem[52] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 8" \mem[53] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 9" \mem[54] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 :" \mem[55] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 ;" \mem[56] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 <" \mem[57] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 =" \mem[58] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 >" \mem[59] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 ?" \mem[60] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 @" \mem[61] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 A" \mem[62] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module SimonTATest $end
+$scope module simon $end
+$scope module dpath $end
+$scope module mem $end
+$var reg 4 B" \mem[63] [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx B"
+bx A"
+bx @"
+bx ?"
+bx >"
+bx ="
+bx <"
+bx ;"
+bx :"
+bx 9"
+bx 8"
+bx 7"
+bx 6"
+bx 5"
+bx 4"
+bx 3"
+bx 2"
+bx 1"
+bx 0"
+bx /"
+bx ."
+bx -"
+bx ,"
+bx +"
+bx *"
+bx )"
+bx ("
+bx '"
+bx &"
+bx %"
+bx $"
+bx #"
+bx ""
+bx !"
+bx ~
+bx }
+bx |
+bx {
+bx z
+bx y
+bx x
+bx w
+bx v
+bx u
+bx t
+bx s
+bx r
+bx q
+bx p
+bx o
+bx n
+bx m
+bx l
+bx k
+bx j
+bx i
+bx h
+bx g
+bx f
+bx e
+bx d
+bx c
+bx b
+bx a
+bx `
+0_
+0^
+0]
+1\
+0[
+bx Z
+0Y
+b0 X
+0W
+0V
+b0 U
+bx T
+bx S
+bx R
+1Q
+bx P
+b0 O
+xN
+xM
+xL
+xK
+bx J
+xI
+xH
+bx G
+bx F
+b0 E
+bx D
+1C
+0B
+0A
+0@
+0?
+0>
+0=
+b0 <
+b0 ;
+0:
+19
+x8
+07
+x6
+x5
+04
+b0 3
+02
+x1
+00
+0/
+0.
+0-
+b0 ,
+0+
+b1000000 *
+b0 )
+0(
+b0 '
+b0 &
+x%
+bx $
+x#
+z"
+z!
+$end
+#10
+1_
+1?
+1-
+1@
+#30
+0K
+05
+0M
+06
+0H
+01
+0Q
+0C
+b0 Z
+b1 X
+b1 &
+b1 3
+b0 a
+b0 b
+b0 c
+b0 d
+b0 e
+b0 f
+b0 g
+b0 h
+b0 i
+b0 j
+b0 k
+b0 l
+b0 m
+b0 n
+b0 o
+b0 p
+b0 q
+b0 r
+b0 s
+b0 t
+b0 u
+b0 v
+b0 w
+b0 x
+b0 y
+b0 z
+b0 {
+b0 |
+b0 }
+b0 ~
+b0 !"
+b0 ""
+b0 #"
+b0 $"
+b0 %"
+b0 &"
+b0 '"
+b0 ("
+b0 )"
+b0 *"
+b0 +"
+b0 ,"
+b0 -"
+b0 ."
+b0 /"
+b0 0"
+b0 1"
+b0 2"
+b0 3"
+b0 4"
+b0 5"
+b0 6"
+b0 7"
+b0 8"
+b0 9"
+b0 :"
+b0 ;"
+b0 <"
+b0 ="
+b0 >"
+b0 ?"
+b0 @"
+b0 A"
+b0 B"
+b0 J
+b0 T
+b111111 P
+0L
+0I
+b0 `
+1(
+1B
+1=
+#40
+0(
+0B
+0=
+#60
+1V
+1/
+b1 X
+b1 &
+b1 3
+0_
+0?
+0-
+0@
+#80
+b1 Z
+1Y
+14
+1]
+1:
+b1 X
+b1 &
+b1 3
+1V
+1/
+b1 O
+b1 '
+b1 <
+1Q
+1C
+b1 ,
+b1 ;
+b1 E
+b1 U
+#100
+b10 Z
+1N
+18
+1H
+11
+0W
+00
+0\
+09
+b10 X
+b10 &
+b10 3
+1V
+1/
+0Y
+04
+0]
+0:
+b1 F
+b1 S
+b0 D
+b0 R
+b1 `
+b0 G
+b1 J
+b1 T
+b1 a
+1(
+1B
+1=
+#110
+0(
+0B
+0=
+#130
+b10 Z
+b10 X
+b10 &
+b10 3
+0\
+09
+1V
+1/
+0N
+08
+0Q
+0C
+b0 ,
+b0 ;
+b0 E
+b0 U
+#150
+b0 O
+b0 '
+b0 <
+b11 Z
+b100 X
+b100 &
+b100 3
+1\
+19
+1V
+1/
+b10 `
+1(
+1B
+1=
+#160
+0(
+0B
+0=
+#180
+b0 Z
+1W
+10
+b100 X
+b100 &
+b100 3
+0V
+0/
+1N
+18
+b1 O
+b1 '
+b1 <
+1Q
+1C
+b1 ,
+b1 ;
+b1 E
+b1 U
+#200
+0N
+08
+0H
+01
+b1 Z
+1V
+1/
+1Y
+14
+1]
+1:
+b1 X
+b1 &
+b1 3
+0W
+00
+b0 F
+b0 S
+b1 D
+b1 R
+b0 `
+b1 G
+1(
+1B
+1=
+#210
+0(
+0B
+0=
+#230
+1+
+12
+#250
+b0 Z
+b1 X
+b1 &
+b1 3
+1V
+1/
+0Y
+04
+0]
+0:
+b1010 O
+b1010 '
+b1010 <
+0Q
+0C
+b1010 ,
+b1010 ;
+b1010 E
+b1010 U
+#270
+b1 X
+b1 &
+b1 3
+1V
+1/
+1H
+11
+b1 F
+b1 S
+b0 D
+b0 R
+b0 G
+1(
+1B
+1=
+#280
+0(
+0B
+0=
+#300
+b1 Z
+1Y
+14
+1]
+1:
+b1 X
+b1 &
+b1 3
+1V
+1/
+b1000 O
+b1000 '
+b1000 <
+1Q
+1C
+b1000 ,
+b1000 ;
+b1000 E
+b1000 U
+#320
+1W
+10
+b1 O
+b1 '
+b1 <
+0H
+01
+b1 Z
+0\
+09
+b10 X
+b10 &
+b10 3
+0V
+0/
+0Y
+04
+0]
+0:
+b1 `
+b10 J
+b10 T
+b1000 b
+1(
+1B
+1=
+#330
+0(
+0B
+0=
+#350
+b10 X
+b10 &
+b10 3
+0\
+09
+1W
+10
+0Q
+0C
+b0 ,
+b0 ;
+b0 E
+b0 U
+#370
+b10 Z
+1V
+1/
+b10 X
+b10 &
+b10 3
+0\
+09
+0W
+00
+b1000 O
+b1000 '
+b1000 <
+1H
+11
+b1000 F
+b1000 S
+b1 D
+b1 R
+b1 G
+1(
+1B
+1=
+#380
+0(
+0B
+0=
+#400
+b0 O
+b0 '
+b0 <
+0H
+01
+b11 Z
+b100 X
+b100 &
+b100 3
+1\
+19
+1V
+1/
+b1 F
+b1 S
+b0 D
+b0 R
+b10 `
+b0 G
+1(
+1B
+1=
+#410
+0(
+0B
+0=
+#430
+b10 Z
+1W
+10
+b100 X
+b100 &
+b100 3
+0V
+0/
+1N
+18
+b1 O
+b1 '
+b1 <
+1Q
+1C
+b1 ,
+b1 ;
+b1 E
+b1 U
+#450
+b11 Z
+1V
+1/
+b100 X
+b100 &
+b100 3
+0W
+00
+0N
+08
+1H
+11
+b1000 F
+b1000 S
+b1 D
+b1 R
+b1 G
+1(
+1B
+1=
+#460
+0(
+0B
+0=
+#480
+b100 O
+b100 '
+b100 <
+b100 ,
+b100 ;
+b100 E
+b100 U
+#500
+1W
+10
+b1 O
+b1 '
+b1 <
+0H
+01
+0\
+09
+b111 X
+b111 &
+b111 3
+0V
+0/
+b1 F
+b1 S
+b0 D
+b0 R
+b11 `
+b0 G
+1(
+1B
+1=
+#510
+0(
+0B
+0=
+#530
+b111 X
+b111 &
+b111 3
+0\
+09
+1W
+10
+0Q
+0C
+b0 ,
+b0 ;
+b0 E
+b0 U
+#550
+1V
+1/
+b111 X
+b111 &
+b111 3
+0\
+09
+0W
+00
+b1000 O
+b1000 '
+b1000 <
+1H
+11
+b1000 F
+b1000 S
+b1 D
+b1 R
+b1 G
+1(
+1B
+1=
+#560
+0(
+0B
+0=
+#580
+1W
+10
+b111 X
+b111 &
+b111 3
+0\
+09
+0V
+0/
+b1 O
+b1 '
+b1 <
+0H
+01
+b1 F
+b1 S
+b0 D
+b0 R
+b0 G
+1(
+1B
+1=
+#590
+0(
+0B
+0=
+#600
