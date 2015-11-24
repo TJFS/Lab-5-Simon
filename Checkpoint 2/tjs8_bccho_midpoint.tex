@@ -1,0 +1,47 @@
+\documentclass[12pt]{article}
+\usepackage[margin=0.9in]{geometry}
+\geometry{letterpaper}
+\usepackage[parfill]{parskip}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{booktabs}
+\usepackage{verbatim}
+\usepackage{tikz}
+
+\title{ELE 206/COS 306 Simon: Midpoint Write-Up}
+\author{TJ Smith (NetID \texttt{tjs8})\and Byung-Cheol Cho (NetID \texttt{bccho})}
+\date{Due November 25, 2015}
+
+\begin{document}
+\maketitle
+
+\begin{enumerate}[label=\textbf{Question \arabic*.}]
+%
+\item \textbf{Controller:}
+
+For the controller, we tested (almost) all possible variations of inputs while the controller remained in that state (e.g., (almost) all combinations of values of \texttt{valid}, \texttt{of\_out}, \texttt{n\_tc}, and \texttt{rst} are input to check for the correct outputs). The transition conditions were likewise tested, testing for non­transition as well as transition behavior. Negative cases were not checked, generally speaking (e.g., while in the repeat state, the value \texttt{valid} was not toggled to check its behavior, since no outputs in the repeat state depend upon it.
+
+\textbf{Datapath:}
+
+For the datapath, we overall tested two things: (1) the function of the internal memory units (\texttt{psi}, \texttt{n}, \texttt{i}, \texttt{lvl}, \texttt{of} and \texttt{mem}, the internal regfile) to make sure that they responded to inputs that would change their state; and (2) that the outputs respond correctly to the inputs provided under various situations.
+
+More concretely, we did the following:
+\begin{enumerate}
+    \item Testing the \texttt{reset}, \texttt{i\_clr} and \texttt{level} inputs
+    \item Testing the functionality of the effect of \texttt{p\_reflect} on \texttt{pattern\_leds}, and \texttt{lvl} and \texttt{pattern\_leds} on \texttt{valid} (regardless of the value of \texttt{level})
+    \item Testing the functionality of \texttt{of\_set} and the terminal count outputs \texttt{n\_tc} and \texttt{last\_it} when \texttt{of} is high (i.e. in the situation that there is overflow)
+    \item Writing to and reading from \texttt{mem}, and testing the functionality of \texttt{p\_correct}
+    \item Testing \texttt{last\_it} when \texttt{of} is low (i.e. in the situation that there is no overflow)
+    \item Testing \texttt{psi\_ld} and \texttt{last\_it} for both no overflow and overflow cases
+\end{enumerate}
+%
+\item We discovered our DONE state did not loop through the patterns correctly, so we modified it to do so. We renamed \texttt{OF\_set} to \texttt{of\_set} and \texttt{OF\_out} to \texttt{of\_out} to standardize naming conventions. We corrected the \texttt{OF} in the \texttt{INPUT} state of the FSM to \texttt{of\_out}. We defined the behavior of the controller when \texttt{rst} is pressed to clear all outputs except \texttt{reset}, \texttt{mode\_leds}, and \texttt{p\_reflect}. \texttt{reset} is set to 1, and \texttt{mode\_leds} and \texttt{p\_reflect} are set as they would normally be, given the current state.
+%
+\item[\textbf{Feedback.}] The coding took about 4 hours each, or 8 hours combined; writing up took about 1 hour.
+%
+\end{enumerate}
+
+\end{document}

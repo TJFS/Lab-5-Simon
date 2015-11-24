@@ -223,6 +223,7 @@ module SimonDatapathTest;
         `SET(reset, 0);
         `SET(i_clr, 0);
 
+            // no overflow
         $display("**No overflow:");
         `SET(n_inc, 1);
         `SET(p_write, 1);
@@ -257,6 +258,7 @@ module SimonDatapathTest;
         `SET(i_clr, 0);
         `SET(of_set, 0);
 
+            // overflow
         $display("**Overflow:");
         `SET(n_inc, 1);
         `SET(p_write, 1);
