@@ -33,8 +33,6 @@ module Simon(
 	wire psi_ld;
 	wire reset;
 	wire p_reflect;
-	
-	wire [2:0] mode_leds;
 
 	//============================================
 	// Button Debouncer Section
