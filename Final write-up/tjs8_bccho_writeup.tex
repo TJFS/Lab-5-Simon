@@ -20,11 +20,12 @@
 
 \begin{enumerate}[label=\textbf{Question \arabic*.}]
 %
-\item 
+\item The main thing we tested was the overflow case. To do this, we pre-generated a set of 128 patterns and created a macro that runs through the entire game, adding a new pattern each time. The macro checks that Simon displays all the correct pattern in the playback mode, and then repeats them all to keep the game going. Cycling through all 128 patterns thoroughly tests the overflow, since it does so 64 times.
 
 We also ensured that the reset button was not asynchronous (by toggling \texttt{rst} to 1 then 0 again on the 20th iteration), and ensured that toggling the \texttt{level} switch at regular points in time (every 16 iterations) did not affect the outcome. % feel free to update this stuff
+
 %
-\item 
+\item We had no major problems synthesizing our code. The synthesizer did detect one minor problem in the code; we had accidentally declared \texttt{mode_leds} twice. It also detected several adding overflows, but we wanted those counters to overflow. After fixing the redeclaration, everything worked perfectly.
 %
 \item[\textbf{Feedback.}] The coding took about 2.5 hours (most of which was spent making the overflow test case); writing up took about half an hour.
 %
