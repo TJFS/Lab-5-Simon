@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1449022248 "tjs8_bccho_writeup.tex" "tjs8_bccho_writeup.pdf" "tjs8_bccho_writeup" 1449022250
+["pdflatex"] 1449025211 "tjs8_bccho_writeup.tex" "tjs8_bccho_writeup.pdf" "tjs8_bccho_writeup" 1449025211
   "/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
   "/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty" 1335995445 7612 c47308d923ec19888707b0f1792b326a ""
@@ -103,9 +103,9 @@
   "/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty" 1203877327 325 2bcd023400636339210573e2b3ee298b ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty" 1428932888 7264 8720371c12792118e8ec06018cd2e9c6 ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty" 1169481954 55224 a43bab84e0ac5e6efcaf9a98bde73a94 ""
-  "tjs8_bccho_writeup.aux" 1449022250 8 a94a2480d3289e625eea47cd1b285758 ""
-  "tjs8_bccho_writeup.tex" 1449022236 706 db802ab422448d7ec1f04a5306c99f52 ""
+  "tjs8_bccho_writeup.aux" 1449025211 8 a94a2480d3289e625eea47cd1b285758 ""
+  "tjs8_bccho_writeup.tex" 1449025211 1716 c3fd770088bb56bf72839a06bc6ef9d3 ""
   (generated)
-  "tjs8_bccho_writeup.pdf"
-  "tjs8_bccho_writeup.log"
   "tjs8_bccho_writeup.aux"
+  "tjs8_bccho_writeup.log"
+  "tjs8_bccho_writeup.pdf"
